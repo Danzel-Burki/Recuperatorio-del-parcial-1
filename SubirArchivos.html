@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Subir Archivos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h1>Subir un evento</h1>
+        <fieldset>
+        <legend>Evento de apuesta</legend>
+            <label for="fecha_publicacion">Fecha de Publicación:</label>
+            <input type="date" id="fecha_publicacion" name="fecha_publicacion" required>
+            <br>
+            <select name="campo_sel">
+                <option value="1">Argentina</option>
+                <option value="2">EEUU</option>
+                <option value="3">Europa</option>
+            </select>
+            <br>	
+            <input type="file" name="archivo">
+            <br>
+            <textarea name="comentario" rows="5" cols="60" placeholder="Detalles del archivo" autocomplete="off"></textarea>
+            <br>
+            <button type="reset">
+                Borrar <img src="Carpeta_db_imagenes/Carpeta_db_Contacto/eliminar.png" width="12px">
+            </button>
+    
+            <button type="submit">
+                Guardar <img src="Carpeta_db_imagenes/Carpeta_db_Contacto/guardar.png" width="12px">
+            </button>	
+        </fieldset>
+    
+        <a href="index.html">Pagina principal</a>
+        <br>
+        <a href="Apuestas_europa.html">seccion de Apuestas_europa</a>
+    </body>
+    </html>
+    
+</body>
+</html>
